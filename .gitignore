@@ -1,0 +1,32 @@
+# Generated applications and downloaded build dependencies
+/.build/
+/dist/
+/release/
+/release-share/
+/test-output/
+/*.zip
+*.exe
+*.dll
+*.pdb
+*.ico
+*.gz
+
+# Editor / build caches
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+credentials*.json
+hosts.yml
